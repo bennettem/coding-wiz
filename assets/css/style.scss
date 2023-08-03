@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'gaegubold';
+    src: url('/assets/fonts/gaegu-bold1-webfont.woff2') format('woff2'),
+         url('/assets/fonts/gaegu-bold1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gaegulight';
+    src: url('/assets/fonts/gaegu-light1-webfont.woff2') format('woff2'),
+         url('/assets/fonts/gaegu-light1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gaeguregular';
+    src: url('/assets/fonts/gaegu-regular1-webfont.woff2') format('woff2'),
+         url('/assets/fonts/gaegu-regular1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'caprasimoregular';
+    src: url('/assets/fonts/caprasimo-regular1-webfont.woff2') format('woff2'),
+         url('/assets/fonts/caprasimo-regular1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    background-color: #CCCCFF;
+    font-family: 'gaegulight';
+    letter-spacing: .8px;
+    padding: 25px 5%;
+
+    @media only screen and (max-width: 1000px) {
+        padding: 25px 3%;
+    }
+
+    @media only screen and (max-width: 700px) {
+        padding: 25px 2%;
+    }
+
+    h1, h2 {
+        font-family: 'caprasimoregular';
+    }
+
+    h3 {
+        font-family: 'gaegulight';
+        font-size: 38px;
+    }
+
+    p {
+        font-size: 20px; 
+        font-weight: bold;
+    }
+
+    .start-p {
+        text-align: center;
+        // background-image: url("/assets/images/paper.png");
+        // background-position: top center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // padding: 45px 0;
+    }
+
+    .start-btn {
+        background-color: #FFF9BA;
+        border: none;
+        cursor: pointer;
+        padding: 15px 45px;
+        border-radius: 5px;
+        font-family: 'gaegubold';
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+}
